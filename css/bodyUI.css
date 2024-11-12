@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     width: 100%;
     max-width: 2000px;
+    background-color: #101010;
 }
 .container-header{
     display: flex;
@@ -17,6 +18,7 @@ body {
     align-content: center;
     flex-direction: row ;
     margin: 0px 250px;
+    background-color: #101010;
 }
 ul {  list-style-type: none;  margin: 0;  padding: 0;}
 a { text-decoration: none; }
@@ -27,20 +29,24 @@ a {color: #55acee;}
     display: flex;
     flex: 1;
     flex-direction: row ;
+    background-color: #101010;
 }
 .header-left li{
     margin-right: 5px;
+    background-color: #101010;
 }
 .date{
     font-size: 14px;
     color: #bcbcbc;
     font-family: 'Arial', sans-serif;
     margin-left: auto;
+    background-color: #101010;
 }
 .heading{
     color: #ffffff;
     margin: 0px 250px;
     font-family:"Merriweather",serif ;
+    background-color: #101010;
 }
 .description{
     font-size: 16px;
@@ -48,9 +54,11 @@ a {color: #55acee;}
     font-family: 'Arial', sans-serif;
     margin: 0px 250px 10px;
     color: #bdbdbd;
+    background-color: #101010;
 }
 .place{
     color: #757575;
+    background-color: #101010;
 }
 .content{
     color: #ffffff;
@@ -58,15 +66,18 @@ a {color: #55acee;}
     line-height: 160%;
     font-family: 'Arial', sans-serif;
     margin: 0px 250px 10px;
+    background-color: #101010;
 }
 .content-footer{
-    color: #ffffff;}
+    color: #ffffff;
+    background-color: #101010;}
 .author{
     font-size: 18px;
     color: #ffffff;
     font-family: 'Arial', sans-serif;
     margin-left: auto;
     padding: 0px 260px;
+    background-color: #101010;
 }
 .extra-news{
     display: flex;
@@ -74,6 +85,7 @@ a {color: #55acee;}
     margin: 0px 260px;
     color: #ffffff;
     border: 15px solid #222222;
+    background-color: #101010;
 }
 .item-news{
     display: flex;
