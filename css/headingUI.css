@@ -31,7 +31,16 @@ body {
     background-color: #ffffff;
 }
 
-.heading-left, .heading-right {
+.heading-left,{
+    flex: 1;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    padding: 8.5px 0px;
+    background-color: #ffffff;
+}
+
+.heading-right {
     flex: 1;
     align-content: center;
     display: flex;
@@ -45,6 +54,9 @@ body {
     font-size: 14px;
     color: #838383;
     background-color: #ffffff;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
 }
 
 .logo-inter, .login {
