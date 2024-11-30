@@ -4,11 +4,9 @@ body {
     background-color: #ffffff;
 }
 
-.container {
+.container-h {
     display: flex;
     flex-direction: column;
-    background-color: #ffffff;
-    /* width: 100%; */
     height: 15%;
     padding: 0px 60px;
     box-sizing: border-box;
@@ -31,7 +29,7 @@ body {
     background-color: #ffffff;
 }
 
-.heading-left,{
+.heading-left {
     flex: 1;
     align-content: center;
     display: flex;
@@ -47,13 +45,14 @@ body {
     flex-direction: row;
     padding: 8.5px 0px;
     background-color: #ffffff;
+    justify-content: right;
 }
 
 .date, .address, .lately, .area-news, .logo-inter, .login {
     font-family: 'Arial', sans-serif;
     font-size: 14px;
     color: #838383;
-    background-color: #ffffff;
+    background-color: #ffffff !important;
     align-items: center;
     display: flex;
     flex-direction: row;

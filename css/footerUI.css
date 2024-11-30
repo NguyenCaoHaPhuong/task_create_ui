@@ -29,6 +29,7 @@ body {
     font-size: 14px;
     color: #838383;
     font-family: 'Arial', sans-serif;
+    margin-left: 10px;
 }
 
 .chosen {
@@ -75,6 +76,7 @@ h-right {
     flex-direction: column;
     padding: 8.5px 0px;
     line-height: 200%;
+    margin-left: 10px;
 }
 
 .footer1 {
@@ -113,6 +115,7 @@ ul {
     padding: 8.5px 0px;
     margin-left: auto;
     width: 500px;
+    justify-content: right;
 }
 
 .footer2 {
